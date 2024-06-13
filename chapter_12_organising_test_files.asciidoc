@@ -84,6 +84,7 @@ NOTE: We're back to local development now.
     Double check that the `TEST_SERVER` environment variable is unset in your terminal.
 
 // DAVID: might be nice to remind people how they check this?
+// SEBASTIAN: +1, my thought exactly - I read this and was like, "uhm, how do I do this?"
 
 ((("unittest module", "skip test decorator")))
 ((("refactoring")))
@@ -781,6 +782,10 @@ Ran 9 tests in 0.034s
 OK
 $ <strong>git commit -m "Move unit tests into a folder with single file"</strong>
 ----
+
+// SEBASTIAN: How about showing output from `tree` to show the layout before and after changes?
+//  I think it would help visualize what we did
+
 
 // TODO check if we still need dunderinit.
 If you get a message saying "Ran 0 tests",
